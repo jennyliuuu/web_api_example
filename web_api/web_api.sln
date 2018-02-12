@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello_web_api", "hello_web_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello_web_api_client", "hello_web_api_client\hello_web_api_client.csproj", "{08B1D980-424F-4D59-84E4-730CAE284E17}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OSF_Test", "OSF_Test", "{C5A9596C-A328-449B-8A20-6C1D39995C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSFWebServices", "OSFWebServices\OSFWebServices.csproj", "{1D234AB8-3AF0-4CED-86F3-3432CB8C5717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libOSFData", "libOSFData\libOSFData.csproj", "{512E1FF0-8D0C-4339-9326-FA115F81968F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +39,20 @@ Global
 		{08B1D980-424F-4D59-84E4-730CAE284E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08B1D980-424F-4D59-84E4-730CAE284E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08B1D980-424F-4D59-84E4-730CAE284E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D234AB8-3AF0-4CED-86F3-3432CB8C5717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D234AB8-3AF0-4CED-86F3-3432CB8C5717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D234AB8-3AF0-4CED-86F3-3432CB8C5717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D234AB8-3AF0-4CED-86F3-3432CB8C5717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512E1FF0-8D0C-4339-9326-FA115F81968F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512E1FF0-8D0C-4339-9326-FA115F81968F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512E1FF0-8D0C-4339-9326-FA115F81968F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512E1FF0-8D0C-4339-9326-FA115F81968F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D234AB8-3AF0-4CED-86F3-3432CB8C5717} = {C5A9596C-A328-449B-8A20-6C1D39995C40}
+		{512E1FF0-8D0C-4339-9326-FA115F81968F} = {C5A9596C-A328-449B-8A20-6C1D39995C40}
 	EndGlobalSection
 EndGlobal
