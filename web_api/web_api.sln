@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSFWebServices", "OSFWebSer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libOSFData", "libOSFData\libOSFData.csproj", "{512E1FF0-8D0C-4339-9326-FA115F81968F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Touppser", "Touppser\Touppser.csproj", "{6B99EC76-972E-4C09-82A6-EBDC81AF5C0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{71B7C2B7-8E7D-43EB-AB8B-0BC65CF14BBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL_Test", "DLL_Test", "{0C7D31DC-1318-4AB1-9998-258BA9C50A9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +53,14 @@ Global
 		{512E1FF0-8D0C-4339-9326-FA115F81968F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{512E1FF0-8D0C-4339-9326-FA115F81968F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{512E1FF0-8D0C-4339-9326-FA115F81968F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B99EC76-972E-4C09-82A6-EBDC81AF5C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B99EC76-972E-4C09-82A6-EBDC81AF5C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B99EC76-972E-4C09-82A6-EBDC81AF5C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B99EC76-972E-4C09-82A6-EBDC81AF5C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B7C2B7-8E7D-43EB-AB8B-0BC65CF14BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B7C2B7-8E7D-43EB-AB8B-0BC65CF14BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B7C2B7-8E7D-43EB-AB8B-0BC65CF14BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B7C2B7-8E7D-43EB-AB8B-0BC65CF14BBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +68,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1D234AB8-3AF0-4CED-86F3-3432CB8C5717} = {C5A9596C-A328-449B-8A20-6C1D39995C40}
 		{512E1FF0-8D0C-4339-9326-FA115F81968F} = {C5A9596C-A328-449B-8A20-6C1D39995C40}
+		{6B99EC76-972E-4C09-82A6-EBDC81AF5C0A} = {0C7D31DC-1318-4AB1-9998-258BA9C50A9E}
+		{71B7C2B7-8E7D-43EB-AB8B-0BC65CF14BBB} = {0C7D31DC-1318-4AB1-9998-258BA9C50A9E}
 	EndGlobalSection
 EndGlobal
