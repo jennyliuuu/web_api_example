@@ -15,6 +15,10 @@ namespace OSF_test.Controllers
         [HttpPost]
         public string Post([FromBody]OSFRequestSystemCall SysCall)
         {
+            // =====================================================================
+            // ===                         get cookies                          ====
+            // =====================================================================
+
             //  another method
             /*
             UnicodeEncoding unicode = new UnicodeEncoding();
@@ -22,11 +26,16 @@ namespace OSF_test.Controllers
             string return_code = Encoding.Unicode.GetString(encodedBytes);
             return return_code;
             */
-            
+
             string sessionId = Request.Properties[SecMsgHandler.test] as string;
             string desessionId = Encoding.Unicode.GetString(Encoding.Unicode.GetBytes(sessionId));
             return System.Web.HttpUtility.UrlDecode(desessionId);     //need decode!
 
+            // =====================================================================
+            // ===                                                              ====
+            // =====================================================================
+
+            
         }
 
     }

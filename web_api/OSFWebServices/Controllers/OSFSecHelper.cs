@@ -17,6 +17,9 @@ namespace OSFWebServices
         protected async override Task<HttpResponseMessage> SendAsync(
         HttpRequestMessage request, CancellationToken cancellationToken)
         {
+            // =====================================================================
+            // ===                         get cookies                          ====
+            // =====================================================================
             string sessionId;
 
             // Try to get the session ID from the request; otherwise create a new ID.
@@ -35,6 +38,11 @@ namespace OSFWebServices
                 request.Properties[test] = cookie.ToString();
                 
             }
+
+            // =====================================================================
+            // ===                                                              ====
+            // =====================================================================
+
             
             // Continue processing the HTTP request.
             HttpResponseMessage response = await base.SendAsync(request, cancellationToken);
