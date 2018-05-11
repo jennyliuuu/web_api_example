@@ -1,4 +1,6 @@
-﻿using System;
+﻿// web clinet send http request with cookie in header
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -108,7 +110,8 @@ namespace OSFClient
 
                 // ======================================== send http request ========================================
                 webClient.Encoding = Encoding.UTF8;
-                string response = webClient.UploadString("http://localhost:43754/api/systemcall", "POST", strRequestDataJson);
+                string urlPath = "http://localhost:43754/api/systemcall";
+                string response = webClient.UploadString(urlPath, "POST", strRequestDataJson);
                 Console.WriteLine("response: {0}", response);
                 // ======================================== send http request ========================================
 
